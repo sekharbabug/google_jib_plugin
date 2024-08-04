@@ -45,15 +45,15 @@
 				<version>3.4.3</version>
 				<configuration>
 					<to>
-						<image>docker.io/srdockerhub2/google-jib-image-example</image>
+						<image>docker.io/username/google-jib-image-example</image>
 						<tags>
 							<tag>${image.version}</tag> <!-- The image version
 							can be a property value set when running the Maven -->
 							<tag>latest</tag> <!-- latest tag -->
 						</tags>
 						<auth> <!-- for login inside your repository and push it -->
-							<username>srdockerhub2</username>
-							<password>Welcome@#$99</password>
+							<username>username</username>
+							<password>password</password>
 						</auth>
 					</to>
 				</configuration>
